@@ -187,7 +187,7 @@ class AccountController < ApplicationController
           session[:auth_source_registration] = nil
           self.logged_user = @user
           Track.log(Track::LOGIN,session[:client_ip])
-          redirect_with_flash :notice, l(:notice_account_activated), :controller => 'my', :action => 'account'
+#          redirect_with_flash :notice, l(:notice_account_activated), :controller => 'my', :action => 'account'
         end
       else
         @user.login = params[:user][:login]
@@ -203,7 +203,8 @@ class AccountController < ApplicationController
         end
       end
     end
-    render :layout => 'static'
+# throws a double render error, wtf? started happening after enabling self-registration
+#    render :layout => 'static'
   end
   
   # Token based account activation

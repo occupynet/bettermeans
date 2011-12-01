@@ -182,7 +182,7 @@ function load_dashboard_data(){
 	$("#load_dashboard").hide();	
 	$("#loading").hide();
 	
-	get_local_data();
+	//get_local_data();
 	// if (local_R == null){
 	// 	local_R = [];
 	// }
@@ -207,7 +207,7 @@ function load_dashboard_data(){
 		ISSUE_COUNT = 0;
 		
 		load_dashboard_data_for_statuses('10,11','new');
-		load_dashboard_data_for_statuses('1,6','open');
+		load_dashboard_data_for_statuses('1,2,6','open');
 		load_dashboard_data_for_statuses('4','inprogress');
 		load_dashboard_data_for_statuses('8,14,13','done');
 		load_dashboard_data_for_statuses('9','canceled'); 
@@ -1143,7 +1143,6 @@ function generate_agree_flyover(dataId){
 	var buttons = '';
 	var points = 999;
 	
-	http://bettermeans.com/front/?page_id=318
 	if (user_agree_id > -1){
 		points = item.issue_votes[user_agree_id].points;
 		

@@ -1,7 +1,8 @@
 source :gemcutter
 
-gem 'rails', '2.3.5'
+gem 'rails', '2.3.11'
 
+gem 'linecache', '0.43'
 gem 'ruby-debug', '0.10.4'
 gem 'rubytree', '0.7.0'
 gem 'rpx_now', '0.6.24'
@@ -31,5 +32,7 @@ end
 group :development do
   gem 'sqlite3-ruby', :require => 'sqlite3'
   gem 'pg'
-  gem 'mysql2'
+  gem 'mysql'
+# breaks things post install?
+  gem 'mysql2', '0.2.13'
 end

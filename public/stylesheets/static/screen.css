@@ -925,7 +925,7 @@ div.paint p a,div.side-paint p a{
 
 #homebanner{
 	height: 300px;
-	background-image:url("/images/static/HomePageMain.png");
+/*	background-image:url("/images/static/HomePageMain.png");*/
 	background-repeat:no-repeat;
 	background-position: right center;
 /*	margin-bottom: 44px;*/
