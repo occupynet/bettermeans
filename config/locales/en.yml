@@ -124,7 +124,7 @@ en:
   general_first_day_of_week: '7'
   
   notice_account_reactivated: Your account has been reactivated.<br> Welcome back!<br><br> <a href="/">Home</a>
-  notice_account_canceled: Your account is now canceled. Thanks for trying us out.<br><br>We would love your feedback on how we can do better.<br><br><a href="mailto:feedback@bettermeans.com">feedback@bettermeans.com</a>
+  notice_account_canceled: Your account is now canceled. Thanks for trying us out.<br><br>We would love your feedback on how we can do better.<br><br><a href="mailto:contribute@occupy.net">contribute.occupy.net</a>
   notice_account_inactive_user: Account has not yet been activated. Please check your email for activation link
   notice_account_updated: Account was successfully updated.
   notice_account_invalid_creditentials: Invalid user or password
@@ -652,7 +652,7 @@ en:
   label_day: day
   label_day_plural: days
   label_browse: Browse
-  label_browse_workstreams: Browse bettermeans
+  label_browse_workstreams: Browse workstreams
   label_browse_activity: Browse activity
   label_modification: "{{count}} change"
   label_modification_plural: "{{count}} changes"
@@ -1227,7 +1227,7 @@ en:
   text_member_removal : "This motion is to remove {{user}} as a member of {{enterprise}}. If the motion passes {{user}} would become a Contributor. As a Contributor, their votes will be non-binding. Their shares and credits would be unaffected. The votes on this motion will not be visible to to {{user}}, but they will be able to see the discussion."
   text_issue_edit_footer : "You can comment on this issue via email, by replying to this email directly."
   text_message_edit_footer : "You can reply to this message via email, by replying to this email directly."
-  text_invitation_note_default : "Hey,\r\n\r\nWe've been using bettermeans.com to work on {{project}}.\r\n\r\nBettermeans lets us work together as equals, and is a transparent, democratic way to get things done together. \r\n\r\nPlease accept this invitation to join us.\r\n\r\nWarm regards\r\n{{user}}"
+  text_invitation_note_default : "Hey,\r\n\r\nWe've been using collaborate.occupy.net to work on {{project}}.\r\n\r\nBettermeans lets us work together as equals, and is a transparent, democratic way to get things done together. \r\n\r\nPlease accept this invitation to join us.\r\n\r\nWarm regards\r\n{{user}}"
   text_you_are_invited : "You are being invited to join"
   text_generic_invitation : "This link allows anybody to get started as a <strong>contributor</strong> to this workstream."
   text_generic_invitation_2 : "You can also use the form below to send personalized invitations for folks to join as other roles"
