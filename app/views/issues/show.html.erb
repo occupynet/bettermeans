@@ -87,7 +87,7 @@
                 <%= render :partial => "joined_by"  %>
                 <div class="issue-meta-box last-box">
                     <h3 class="issue-meta-title"><%=l(:field_item_url)%> <%= help_bubble :help_item_url %></h3>
-                    <span class="issue-meta-content"><%= url_for(:action => 'dashboard', :controller => 'projects', :show_issue_id => @issue.id, :only_path => false, :protocol => 'http') %></span>
+                    <span class="issue-meta-content"><input type="input" readonly="readonly" onClick="this.focus();this.select();" value="<%= url_for(:action => 'dashboard', :controller => 'projects', :show_issue_id => @issue.id, :only_path => false, :protocol => 'http') %>" /></span>
                 </div>
                 <div class="issue-meta-action-wrapper">
                   <%= render :partial => 'action_menu' %>

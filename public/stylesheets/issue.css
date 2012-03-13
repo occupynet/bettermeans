@@ -92,6 +92,11 @@ h1, #item_header h3 {
     font-size: 11px;
 }
 
+.issue-meta-content input[readonly=readonly] {
+    width: 100%;
+    padding: 2px;
+}
+
 .issue-image-area {
     position: absolute;
     top: -8px;
